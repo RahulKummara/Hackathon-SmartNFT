@@ -1,17 +1,14 @@
-## Project Title:
+## Project Title
 **Smart NFT Pricing Model**
 
----
 
 ## Selected Domain  
 **Artificial Intelligence and Machine Learning**
 
----
 
 ## Problem Statement / Use Case  
 NFT creators and collectors currently rely on hype and subjective opinions for pricing digital assets. This leads to overpricing, undervaluation, and mistrust in the NFT ecosystem. There is a need for a smart pricing engine that can predict fair market value based on objective data.
 
----
 
 ## Abstract / Problem Description  
 
@@ -21,7 +18,6 @@ The aim is to bridge the gap between creators and buyers by offering a transpare
 
 The web interface is built using HTML, CSS, and Flask, providing a seamless experience for creators, collectors, and analysts alike. SmartNFT enables fairer pricing in the NFT market, democratizing access and helping avoid manipulation or misjudgment of digital asset values.
 
----
 
 ## Tech Stack Used
 
