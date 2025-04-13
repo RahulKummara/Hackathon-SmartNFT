@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart NFT Price Predictor</title>
+    <link rel="stylesheet" href="static\styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🎨 Smart NFT Market Cap Predictor</h1>
+        <p>Predict the Market Cap (USD) of an NFT collection based on metadata.</p>
+
+        <form method="POST" action="/predict">
+            <label for="volume_usd">🔄 Volume (USD)</label>
+            <input type="number" id="volume_usd" name="volume_usd" value="{{ volume_usd }}" required>
+
+            <label for="sales">🛒 Total Sales</label>
+            <input type="number" id="sales" name="sales" value="{{ sales }}" required>
+
+            <label for="floor_price_usd">🏷️ Floor Price (USD)</label>
+            <input type="number" id="floor_price_usd" name="floor_price_usd" value="{{ floor_price_usd }}" required>
+
+            <label for="owners">👥 Number of Owners</label>
+            <input type="number" id="owners" name="owners" value="{{ owners }}" required>
+
+            <label for="category">🎭 NFT Category</label>
+            <select name="category" id="category" required>
+                <option value="Image" {% if selected_category == "Image" %}selected{% endif %}>Image</option>
+                <option value="Photography" {% if selected_category == "Photography" %}selected{% endif %}>Photography</option>
+                <option value="Music" {% if selected_category == "Music" %}selected{% endif %}>Music</option>
+                <option value="3D" {% if selected_category == "3D" %}selected{% endif %}>3D</option>
+                <option value="Street Art" {% if selected_category == "Street Art" %}selected{% endif %}>Street Art</option>
+                <option value="PFP" {% if selected_category == "PFP" %}selected{% endif %}>PFP</option>
+            </select>
+
+            <button type="submit">🚀 Predict Market Cap</button>
+        </form>
+
+        {% if prediction %}
+        <h2>💰 Estimated Market Cap: ${{ prediction | round(2) }}</h2>
+        {% endif %}
+    </div>
+
+</body>
+</html>

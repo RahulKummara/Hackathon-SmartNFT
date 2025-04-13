@@ -1,0 +1,569 @@
+INFO:data_loader:Loaded data with 592 rows
+INFO:data_loader:Loaded data with 592 rows
+INFO:data_loader:Loaded data with 592 rows
+INFO:data_loader:Loaded data with 592 rows
+ERROR:data_preprocessor:Preprocessing error: Boolean array expected for the condition, not int64
+INFO:data_loader:Loaded data with 592 rows
+ERROR:data_preprocessor:Preprocessing error: The 'strategy' parameter of SimpleImputer must be a str among {'mean', 'median', 'most_frequent', 'constant'} or a callable. Got 'medain' instead.
+INFO:data_loader:Loaded data with 592 rows
+ERROR:data_preprocessor:Preprocessing error: could not convert string to float: 'https://content.solsea.io/files/thumbnail/1636669983973-23915727-basis-markets-banner-design-01.jpg'
+INFO:data_loader:Loaded data with 592 rows
+ERROR:data_preprocessor:Preprocessing error: could not convert string to float: 'https://content.solsea.io/files/thumbnail/1636669983973-23915727-basis-markets-banner-design-01.jpg'
+INFO:data_loader:Loaded data with 592 rows
+ERROR:data_preprocessor:Preprocessing error: could not convert string to float: 'https://content.solsea.io/files/thumbnail/1636669983973-23915727-basis-markets-banner-design-01.jpg'
+INFO:data_loader:Loaded data with 592 rows
+INFO:data_preprocessor:Starting preprocessing for 592 rows
+ERROR:data_preprocessor:Preprocessing error: 'Preprocessor' object has no attribute 'imputer_num'
+INFO:data_loader:Loaded data with 592 rows
+INFO:data_preprocessor:Starting preprocessing for 592 rows
+INFO:data_preprocessor:Imputed numerical columns: ['Index', 'Volume', 'Volume_USD', 'Market_Cap', 'Market_Cap_USD', 'Sales', 'Floor_Price', 'Floor_Price_USD', 'Average_Price', 'Average_Price_USD', 'Owners', 'Assets', 'Owner_Asset_Ratio']
+ERROR:data_preprocessor:Preprocessing error: 'Preprocessor' object has no attribute 'imputer_cat'
+INFO:data_loader:Loaded data with 592 rows
+INFO:data_preprocessor:Starting preprocessing for 592 rows
+INFO:data_preprocessor:Imputed numerical columns: ['Index', 'Volume', 'Volume_USD', 'Market_Cap', 'Market_Cap_USD', 'Sales', 'Floor_Price', 'Floor_Price_USD', 'Average_Price', 'Average_Price_USD', 'Owners', 'Assets', 'Owner_Asset_Ratio']
+INFO:data_preprocessor:Imputed categorical columns: ['Name', 'Category', 'Website', 'Logo']
+INFO:data_preprocessor:No missing values after imputation
+INFO:data_preprocessor:Encoded categories: ['Audio', 'Image', 'Artifact', 'Digital', 'PFP', 'P2E', 'Design', 'Immaterial', 'Music Theme', 'Metaverse', 'Privilege', 'Art', 'Street Art', 'Trading Cards', 'Pixel Art', 'Music', '3D', 'Print', 'Collectibles', 'Drawing', 'Video', 'Performance', 'Photography', 'Picture', 'Graphics', '2D', 'AI', 'Sculpture', 'Physical', 'Painting', 'Trademark', 'Ticket']
+INFO:data_preprocessor:Dropped columns: ['Index', 'Name', 'Website', 'Logo', 'Category']
+INFO:data_preprocessor:Log-transformed columns: ['Volume_USD', 'Floor_Price_USD', 'Sales', 'Owners', 'Assets', 'Market_Cap_USD']
+INFO:data_preprocessor:Features: ['Volume', 'Volume_USD', 'Market_Cap', 'Sales', 'Floor_Price', 'Floor_Price_USD', 'Average_Price', 'Average_Price_USD', 'Owners', 'Assets', 'Owner_Asset_Ratio', 'Category_Audio', 'Category_Image', 'Category_Artifact', 'Category_Digital', 'Category_PFP', 'Category_P2E', 'Category_Design', 'Category_Immaterial', 'Category_Music Theme', 'Category_Metaverse', 'Category_Privilege', 'Category_Art', 'Category_Street Art', 'Category_Trading Cards', 'Category_Pixel Art', 'Category_Music', 'Category_3D', 'Category_Print', 'Category_Collectibles', 'Category_Drawing', 'Category_Video', 'Category_Performance', 'Category_Photography', 'Category_Picture', 'Category_Graphics', 'Category_2D', 'Category_AI', 'Category_Sculpture', 'Category_Physical', 'Category_Painting', 'Category_Trademark', 'Category_Ticket']
+INFO:data_preprocessor:Features scaled
+INFO:data_preprocessor:Preprocessing completed
+INFO:data_loader:Loaded data with 592 rows
+INFO:data_preprocessor:Starting preprocessing for 592 rows
+INFO:data_preprocessor:Imputed numerical columns: ['Index', 'Volume', 'Volume_USD', 'Market_Cap', 'Market_Cap_USD', 'Sales', 'Floor_Price', 'Floor_Price_USD', 'Average_Price', 'Average_Price_USD', 'Owners', 'Assets', 'Owner_Asset_Ratio']
+INFO:data_preprocessor:Imputed categorical columns: ['Name', 'Category', 'Website', 'Logo']
+INFO:data_preprocessor:No missing values after imputation
+INFO:data_preprocessor:Encoded categories: ['Print', 'Immaterial', 'Music', 'Trading Cards', 'Art', 'Audio', 'Painting', '2D', 'Pixel Art', 'Artifact', 'Ticket', 'Performance', 'Music Theme', 'Photography', 'Sculpture', 'Design', '3D', 'Video', 'Metaverse', 'Graphics', 'Collectibles', 'PFP', 'Digital', 'Privilege', 'Trademark', 'AI', 'P2E', 'Picture', 'Physical', 'Street Art', 'Image', 'Drawing']
+INFO:data_preprocessor:Dropped columns: ['Index', 'Name', 'Website', 'Logo', 'Category']
+INFO:data_preprocessor:Log-transformed columns: ['Volume_USD', 'Floor_Price_USD', 'Sales', 'Owners', 'Assets', 'Market_Cap_USD']
+INFO:data_preprocessor:Features: ['Volume', 'Volume_USD', 'Market_Cap', 'Sales', 'Floor_Price', 'Floor_Price_USD', 'Average_Price', 'Average_Price_USD', 'Owners', 'Assets', 'Owner_Asset_Ratio', 'Category_Print', 'Category_Immaterial', 'Category_Music', 'Category_Trading Cards', 'Category_Art', 'Category_Audio', 'Category_Painting', 'Category_2D', 'Category_Pixel Art', 'Category_Artifact', 'Category_Ticket', 'Category_Performance', 'Category_Music Theme', 'Category_Photography', 'Category_Sculpture', 'Category_Design', 'Category_3D', 'Category_Video', 'Category_Metaverse', 'Category_Graphics', 'Category_Collectibles', 'Category_PFP', 'Category_Digital', 'Category_Privilege', 'Category_Trademark', 'Category_AI', 'Category_P2E', 'Category_Picture', 'Category_Physical', 'Category_Street Art', 'Category_Image', 'Category_Drawing']
+INFO:data_preprocessor:Features scaled
+INFO:data_preprocessor:Preprocessing completed
+INFO:data_loader:Loaded data with 592 rows
+INFO:data_preprocessor:Starting preprocessing for 592 rows
+INFO:data_preprocessor:Imputed numerical columns: ['Index', 'Volume', 'Volume_USD', 'Market_Cap', 'Market_Cap_USD', 'Sales', 'Floor_Price', 'Floor_Price_USD', 'Average_Price', 'Average_Price_USD', 'Owners', 'Assets', 'Owner_Asset_Ratio']
+INFO:data_preprocessor:Imputed categorical columns: ['Name', 'Category', 'Website', 'Logo']
+INFO:data_preprocessor:No missing values after imputation
+INFO:data_preprocessor:Encoded categories: ['P2E', 'Audio', 'Drawing', 'Trading Cards', 'PFP', 'Picture', 'Performance', 'Artifact', 'Image', '2D', 'Art', 'Painting', 'Design', 'Physical', 'Street Art', '3D', 'Graphics', 'Music', 'Collectibles', 'Pixel Art', 'Print', 'Sculpture', 'Digital', 'Privilege', 'Ticket', 'Metaverse', 'Video', 'Immaterial', 'Music Theme', 'Trademark', 'Photography', 'AI']
+INFO:data_preprocessor:Dropped columns: ['Index', 'Name', 'Website', 'Logo', 'Category']
+INFO:data_preprocessor:Log-transformed columns: ['Volume_USD', 'Floor_Price_USD', 'Sales', 'Owners', 'Assets', 'Market_Cap_USD']
+INFO:data_preprocessor:Features: ['Volume', 'Volume_USD', 'Market_Cap', 'Sales', 'Floor_Price', 'Floor_Price_USD', 'Average_Price', 'Average_Price_USD', 'Owners', 'Assets', 'Owner_Asset_Ratio', 'Category_P2E', 'Category_Audio', 'Category_Drawing', 'Category_Trading Cards', 'Category_PFP', 'Category_Picture', 'Category_Performance', 'Category_Artifact', 'Category_Image', 'Category_2D', 'Category_Art', 'Category_Painting', 'Category_Design', 'Category_Physical', 'Category_Street Art', 'Category_3D', 'Category_Graphics', 'Category_Music', 'Category_Collectibles', 'Category_Pixel Art', 'Category_Print', 'Category_Sculpture', 'Category_Digital', 'Category_Privilege', 'Category_Ticket', 'Category_Metaverse', 'Category_Video', 'Category_Immaterial', 'Category_Music Theme', 'Category_Trademark', 'Category_Photography', 'Category_AI']
+INFO:data_preprocessor:Features scaled
+INFO:data_preprocessor:Preprocessing completed
+INFO:feature_engineering:Starting feature engineering for 592 rows
+INFO:feature_engineering:Created feature: Volume_per_Sale
+INFO:feature_engineering:Created feature: Avg_Price_per_Asset
+INFO:feature_engineering:Created feature: Market_Cap_to_Volume
+INFO:feature_engineering:Handled infinities and NaNs
+INFO:feature_engineering:Dropped columns: ['Volume', 'Market_Cap', 'Floor_Price', 'Average_Price']
+INFO:feature_engineering:Capped outliers in: ['Volume_USD', 'Market_Cap_USD', 'Floor_Price_USD', 'Sales', 'Owners', 'Assets']
+ERROR:feature_engineering:Feature engineering error: 'FeatureEngineer' object has no attribute 'log_transform'
+INFO:data_loader:Loaded data with 592 rows
+INFO:data_preprocessor:Starting preprocessing for 592 rows
+INFO:data_preprocessor:Imputed numerical columns: ['Index', 'Volume', 'Volume_USD', 'Market_Cap', 'Market_Cap_USD', 'Sales', 'Floor_Price', 'Floor_Price_USD', 'Average_Price', 'Average_Price_USD', 'Owners', 'Assets', 'Owner_Asset_Ratio']
+INFO:data_preprocessor:Imputed categorical columns: ['Name', 'Category', 'Website', 'Logo']
+INFO:data_preprocessor:No missing values after imputation
+INFO:data_preprocessor:Encoded categories: ['Privilege', 'Photography', 'Sculpture', 'Performance', '2D', 'P2E', 'Music Theme', '3D', 'Video', 'Print', 'Physical', 'Audio', 'Picture', 'Metaverse', 'AI', 'Trademark', 'Pixel Art', 'Drawing', 'Painting', 'PFP', 'Art', 'Ticket', 'Street Art', 'Design', 'Trading Cards', 'Image', 'Artifact', 'Digital', 'Collectibles', 'Immaterial', 'Music', 'Graphics']
+INFO:data_preprocessor:Dropped columns: ['Index', 'Name', 'Website', 'Logo', 'Category']
+INFO:data_preprocessor:Log-transformed columns: ['Volume_USD', 'Floor_Price_USD', 'Sales', 'Owners', 'Assets', 'Market_Cap_USD']
+INFO:data_preprocessor:Features: ['Volume', 'Volume_USD', 'Market_Cap', 'Sales', 'Floor_Price', 'Floor_Price_USD', 'Average_Price', 'Average_Price_USD', 'Owners', 'Assets', 'Owner_Asset_Ratio', 'Category_Privilege', 'Category_Photography', 'Category_Sculpture', 'Category_Performance', 'Category_2D', 'Category_P2E', 'Category_Music Theme', 'Category_3D', 'Category_Video', 'Category_Print', 'Category_Physical', 'Category_Audio', 'Category_Picture', 'Category_Metaverse', 'Category_AI', 'Category_Trademark', 'Category_Pixel Art', 'Category_Drawing', 'Category_Painting', 'Category_PFP', 'Category_Art', 'Category_Ticket', 'Category_Street Art', 'Category_Design', 'Category_Trading Cards', 'Category_Image', 'Category_Artifact', 'Category_Digital', 'Category_Collectibles', 'Category_Immaterial', 'Category_Music', 'Category_Graphics']
+INFO:data_preprocessor:Features scaled
+INFO:data_preprocessor:Preprocessing completed
+INFO:feature_engineering:Starting feature engineering for 592 rows
+INFO:feature_engineering:Created feature: Volume_per_Sale
+INFO:feature_engineering:Created feature: Avg_Price_per_Asset
+INFO:feature_engineering:Created feature: Market_Cap_to_Volume
+INFO:feature_engineering:Handled infinities and NaNs
+INFO:feature_engineering:Dropped columns: ['Volume', 'Market_Cap', 'Floor_Price', 'Average_Price']
+INFO:feature_engineering:Capped outliers in: ['Volume_USD', 'Market_Cap_USD', 'Floor_Price_USD', 'Sales', 'Owners', 'Assets']
+INFO:feature_engineering:Log-transformed: ['Volume_USD', 'Market_Cap_USD', 'Floor_Price_USD', 'Sales', 'Owners', 'Assets', 'Volume_per_Sale']
+ERROR:feature_engineering:Feature engineering error: could not convert string to float: 'basis.markets'
+INFO:data_loader:Loaded data with 592 rows
+INFO:data_preprocessor:Starting preprocessing for 592 rows
+INFO:data_preprocessor:Imputed numerical columns: ['Index', 'Volume', 'Volume_USD', 'Market_Cap', 'Market_Cap_USD', 'Sales', 'Floor_Price', 'Floor_Price_USD', 'Average_Price', 'Average_Price_USD', 'Owners', 'Assets', 'Owner_Asset_Ratio']
+INFO:data_preprocessor:Imputed categorical columns: ['Name', 'Category', 'Website', 'Logo']
+INFO:data_preprocessor:No missing values after imputation
+INFO:data_preprocessor:Encoded categories: ['Music', 'Ticket', 'P2E', 'PFP', 'Photography', 'Graphics', 'Print', 'Painting', 'Image', 'Drawing', 'Music Theme', 'Privilege', 'Trademark', 'Physical', 'Picture', 'Trading Cards', 'Audio', 'AI', 'Metaverse', 'Immaterial', 'Artifact', 'Street Art', 'Video', 'Pixel Art', 'Digital', 'Sculpture', 'Design', 'Performance', '3D', 'Collectibles', '2D', 'Art']
+INFO:data_preprocessor:Dropped columns: ['Index', 'Name', 'Website', 'Logo', 'Category']
+INFO:data_preprocessor:Log-transformed columns: ['Volume_USD', 'Floor_Price_USD', 'Sales', 'Owners', 'Assets', 'Market_Cap_USD']
+INFO:data_preprocessor:Features: ['Volume', 'Volume_USD', 'Market_Cap', 'Sales', 'Floor_Price', 'Floor_Price_USD', 'Average_Price', 'Average_Price_USD', 'Owners', 'Assets', 'Owner_Asset_Ratio', 'Category_Music', 'Category_Ticket', 'Category_P2E', 'Category_PFP', 'Category_Photography', 'Category_Graphics', 'Category_Print', 'Category_Painting', 'Category_Image', 'Category_Drawing', 'Category_Music Theme', 'Category_Privilege', 'Category_Trademark', 'Category_Physical', 'Category_Picture', 'Category_Trading Cards', 'Category_Audio', 'Category_AI', 'Category_Metaverse', 'Category_Immaterial', 'Category_Artifact', 'Category_Street Art', 'Category_Video', 'Category_Pixel Art', 'Category_Digital', 'Category_Sculpture', 'Category_Design', 'Category_Performance', 'Category_3D', 'Category_Collectibles', 'Category_2D', 'Category_Art']
+INFO:data_preprocessor:Features scaled
+INFO:data_preprocessor:Preprocessing completed
+INFO:feature_engineering:Starting feature engineering for 592 rows
+INFO:feature_engineering:Created feature: Volume_per_Sale
+INFO:feature_engineering:Created feature: Avg_Price_per_Asset
+INFO:feature_engineering:Created feature: Market_Cap_to_Volume
+INFO:feature_engineering:Handled infinities and NaNs
+INFO:feature_engineering:Dropped columns: ['Volume', 'Market_Cap', 'Floor_Price', 'Average_Price']
+INFO:feature_engineering:Capped outliers in: ['Volume_USD', 'Market_Cap_USD', 'Floor_Price_USD', 'Sales', 'Owners', 'Assets']
+INFO:feature_engineering:Log-transformed: ['Volume_USD', 'Market_Cap_USD', 'Floor_Price_USD', 'Sales', 'Owners', 'Assets', 'Volume_per_Sale']
+ERROR:feature_engineering:Feature engineering error: could not convert string to float: 'basis.markets'
+INFO:data_loader:Loaded data with 592 rows
+INFO:data_preprocessor:Starting preprocessing for 592 rows
+INFO:data_preprocessor:Imputed numerical columns: ['Index', 'Volume', 'Volume_USD', 'Market_Cap', 'Market_Cap_USD', 'Sales', 'Floor_Price', 'Floor_Price_USD', 'Average_Price', 'Average_Price_USD', 'Owners', 'Assets', 'Owner_Asset_Ratio']
+INFO:data_preprocessor:Imputed categorical columns: ['Name', 'Category', 'Website', 'Logo']
+INFO:data_preprocessor:No missing values after imputation
+INFO:data_preprocessor:Encoded categories: ['AI', 'P2E', 'Music', 'Trading Cards', 'Privilege', 'Artifact', 'Video', 'Pixel Art', 'Painting', '3D', 'Design', 'Collectibles', 'Digital', 'PFP', 'Performance', 'Picture', 'Print', 'Ticket', 'Drawing', 'Image', 'Audio', 'Graphics', 'Trademark', 'Street Art', 'Metaverse', 'Music Theme', 'Photography', '2D', 'Sculpture', 'Physical', 'Immaterial', 'Art']
+INFO:data_preprocessor:Dropped columns: ['Index', 'Name', 'Website', 'Logo', 'Category']
+INFO:data_preprocessor:Log-transformed columns: ['Volume_USD', 'Floor_Price_USD', 'Sales', 'Owners', 'Assets', 'Market_Cap_USD']
+INFO:data_preprocessor:Features: ['Volume', 'Volume_USD', 'Market_Cap', 'Sales', 'Floor_Price', 'Floor_Price_USD', 'Average_Price', 'Average_Price_USD', 'Owners', 'Assets', 'Owner_Asset_Ratio', 'Category_AI', 'Category_P2E', 'Category_Music', 'Category_Trading Cards', 'Category_Privilege', 'Category_Artifact', 'Category_Video', 'Category_Pixel Art', 'Category_Painting', 'Category_3D', 'Category_Design', 'Category_Collectibles', 'Category_Digital', 'Category_PFP', 'Category_Performance', 'Category_Picture', 'Category_Print', 'Category_Ticket', 'Category_Drawing', 'Category_Image', 'Category_Audio', 'Category_Graphics', 'Category_Trademark', 'Category_Street Art', 'Category_Metaverse', 'Category_Music Theme', 'Category_Photography', 'Category_2D', 'Category_Sculpture', 'Category_Physical', 'Category_Immaterial', 'Category_Art']
+INFO:data_preprocessor:Features scaled
+INFO:data_preprocessor:Preprocessing completed
+INFO:feature_engineering:Starting feature engineering for 592 rows
+INFO:feature_engineering:Created feature: Volume_per_Sale
+INFO:feature_engineering:Created feature: Avg_Price_per_Asset
+INFO:feature_engineering:Created feature: Market_Cap_to_Volume
+INFO:feature_engineering:Handled infinities and NaNs
+INFO:feature_engineering:Dropped columns: ['Volume', 'Market_Cap', 'Floor_Price', 'Average_Price']
+INFO:feature_engineering:Capped outliers in: ['Volume_USD', 'Market_Cap_USD', 'Floor_Price_USD', 'Sales', 'Owners', 'Assets']
+INFO:feature_engineering:Log-transformed: ['Volume_USD', 'Market_Cap_USD', 'Floor_Price_USD', 'Sales', 'Owners', 'Assets', 'Volume_per_Sale']
+ERROR:feature_engineering:Feature engineering error: could not convert string to float: 'basis.markets'
+INFO:data_loader:Loaded data with 592 rows
+INFO:data_preprocessor:Starting preprocessing for 592 rows
+INFO:data_preprocessor:Imputed numerical columns: ['Index', 'Volume', 'Volume_USD', 'Market_Cap', 'Market_Cap_USD', 'Sales', 'Floor_Price', 'Floor_Price_USD', 'Average_Price', 'Average_Price_USD', 'Owners', 'Assets', 'Owner_Asset_Ratio']
+INFO:data_preprocessor:Imputed categorical columns: ['Name', 'Category', 'Website', 'Logo']
+INFO:data_preprocessor:No missing values after imputation
+INFO:data_preprocessor:Encoded categories: ['Music', 'Pixel Art', 'Ticket', 'Print', 'P2E', 'Image', 'Audio', 'Drawing', 'Trademark', 'Digital', 'Immaterial', 'Photography', 'Music Theme', 'Physical', 'Trading Cards', 'PFP', 'Privilege', 'Painting', 'Sculpture', 'Graphics', 'Performance', 'AI', 'Artifact', 'Art', 'Collectibles', 'Street Art', '3D', 'Metaverse', 'Design', 'Video', 'Picture', '2D']
+INFO:data_preprocessor:Dropped columns: ['Index', 'Name', 'Website', 'Logo', 'Category']
+INFO:data_preprocessor:Log-transformed columns: ['Volume_USD', 'Floor_Price_USD', 'Sales', 'Owners', 'Assets', 'Market_Cap_USD']
+INFO:data_preprocessor:Features: ['Volume', 'Volume_USD', 'Market_Cap', 'Sales', 'Floor_Price', 'Floor_Price_USD', 'Average_Price', 'Average_Price_USD', 'Owners', 'Assets', 'Owner_Asset_Ratio', 'Category_Music', 'Category_Pixel Art', 'Category_Ticket', 'Category_Print', 'Category_P2E', 'Category_Image', 'Category_Audio', 'Category_Drawing', 'Category_Trademark', 'Category_Digital', 'Category_Immaterial', 'Category_Photography', 'Category_Music Theme', 'Category_Physical', 'Category_Trading Cards', 'Category_PFP', 'Category_Privilege', 'Category_Painting', 'Category_Sculpture', 'Category_Graphics', 'Category_Performance', 'Category_AI', 'Category_Artifact', 'Category_Art', 'Category_Collectibles', 'Category_Street Art', 'Category_3D', 'Category_Metaverse', 'Category_Design', 'Category_Video', 'Category_Picture', 'Category_2D']
+INFO:data_preprocessor:Features scaled
+INFO:data_preprocessor:Preprocessing completed
+INFO:feature_engineering:Starting feature engineering for 592 rows
+INFO:feature_engineering:Created feature: Volume_per_Sale
+INFO:feature_engineering:Created feature: Avg_Price_per_Asset
+INFO:feature_engineering:Created feature: Market_Cap_to_Volume
+INFO:feature_engineering:Handled infinities and NaNs
+INFO:feature_engineering:Dropped columns: ['Volume', 'Market_Cap', 'Floor_Price', 'Average_Price']
+INFO:feature_engineering:Capped outliers in: ['Volume_USD', 'Market_Cap_USD', 'Floor_Price_USD', 'Sales', 'Owners', 'Assets']
+INFO:feature_engineering:Log-transformed: ['Volume_USD', 'Market_Cap_USD', 'Floor_Price_USD', 'Sales', 'Owners', 'Assets', 'Volume_per_Sale']
+INFO:feature_engineering:Scaled columns: ['Volume_USD', 'Sales', 'Floor_Price_USD', 'Average_Price_USD', 'Owners', 'Assets', 'Owner_Asset_Ratio', 'Category_Music', 'Category_Pixel Art', 'Category_Ticket', 'Category_Print', 'Category_P2E', 'Category_Image', 'Category_Audio', 'Category_Drawing', 'Category_Trademark', 'Category_Digital', 'Category_Immaterial', 'Category_Photography', 'Category_Music Theme', 'Category_Physical', 'Category_Trading Cards', 'Category_PFP', 'Category_Privilege', 'Category_Painting', 'Category_Sculpture', 'Category_Graphics', 'Category_Performance', 'Category_AI', 'Category_Artifact', 'Category_Art', 'Category_Collectibles', 'Category_Street Art', 'Category_3D', 'Category_Metaverse', 'Category_Design', 'Category_Video', 'Category_Picture', 'Category_2D', 'Volume_per_Sale', 'Avg_Price_per_Asset', 'Market_Cap_to_Volume']
+INFO:feature_engineering:Feature engineering completed
+INFO:data_loader:Loaded data with 592 rows
+INFO:data_preprocessor:Starting preprocessing for 592 rows
+INFO:data_preprocessor:Imputed numerical columns: ['Index', 'Volume', 'Volume_USD', 'Market_Cap', 'Market_Cap_USD', 'Sales', 'Floor_Price', 'Floor_Price_USD', 'Average_Price', 'Average_Price_USD', 'Owners', 'Assets', 'Owner_Asset_Ratio']
+INFO:data_preprocessor:Imputed categorical columns: ['Name', 'Category', 'Website', 'Logo']
+INFO:data_preprocessor:No missing values after imputation
+INFO:data_preprocessor:Encoded categories: ['Collectibles', 'Pixel Art', 'Trademark', 'Graphics', 'Immaterial', 'Print', 'Picture', 'Trading Cards', 'Sculpture', 'Music', 'Photography', 'Artifact', 'Digital', 'Drawing', 'Image', 'AI', '2D', '3D', 'P2E', 'PFP', 'Street Art', 'Audio', 'Music Theme', 'Video', 'Privilege', 'Performance', 'Design', 'Painting', 'Metaverse', 'Ticket', 'Art', 'Physical']
+INFO:data_preprocessor:Dropped columns: ['Index', 'Name', 'Website', 'Logo', 'Category']
+INFO:data_preprocessor:Log-transformed columns: ['Volume_USD', 'Floor_Price_USD', 'Sales', 'Owners', 'Assets', 'Market_Cap_USD']
+INFO:data_preprocessor:Features: ['Volume', 'Volume_USD', 'Market_Cap', 'Sales', 'Floor_Price', 'Floor_Price_USD', 'Average_Price', 'Average_Price_USD', 'Owners', 'Assets', 'Owner_Asset_Ratio', 'Category_Collectibles', 'Category_Pixel Art', 'Category_Trademark', 'Category_Graphics', 'Category_Immaterial', 'Category_Print', 'Category_Picture', 'Category_Trading Cards', 'Category_Sculpture', 'Category_Music', 'Category_Photography', 'Category_Artifact', 'Category_Digital', 'Category_Drawing', 'Category_Image', 'Category_AI', 'Category_2D', 'Category_3D', 'Category_P2E', 'Category_PFP', 'Category_Street Art', 'Category_Audio', 'Category_Music Theme', 'Category_Video', 'Category_Privilege', 'Category_Performance', 'Category_Design', 'Category_Painting', 'Category_Metaverse', 'Category_Ticket', 'Category_Art', 'Category_Physical']
+INFO:data_preprocessor:Features scaled
+INFO:data_preprocessor:Preprocessing completed
+INFO:feature_engineering:Starting feature engineering for 592 rows
+INFO:feature_engineering:Created feature: Volume_per_Sale
+INFO:feature_engineering:Created feature: Avg_Price_per_Asset
+INFO:feature_engineering:Created feature: Market_Cap_to_Volume
+INFO:feature_engineering:Handled infinities and NaNs
+INFO:feature_engineering:Dropped columns: ['Volume', 'Market_Cap', 'Floor_Price', 'Average_Price']
+INFO:feature_engineering:Capped outliers in: ['Volume_USD', 'Market_Cap_USD', 'Floor_Price_USD', 'Sales', 'Owners', 'Assets']
+INFO:feature_engineering:Log-transformed: ['Volume_USD', 'Market_Cap_USD', 'Floor_Price_USD', 'Sales', 'Owners', 'Assets', 'Volume_per_Sale']
+INFO:feature_engineering:Scaled columns: ['Volume_USD', 'Sales', 'Floor_Price_USD', 'Average_Price_USD', 'Owners', 'Assets', 'Owner_Asset_Ratio', 'Volume_per_Sale', 'Avg_Price_per_Asset', 'Market_Cap_to_Volume']
+INFO:feature_engineering:Feature engineering completed
+INFO:data_loader:Loaded data with 592 rows
+INFO:data_preprocessor:Starting preprocessing for 592 rows
+INFO:data_preprocessor:Imputed numerical columns: ['Index', 'Volume', 'Volume_USD', 'Market_Cap', 'Market_Cap_USD', 'Sales', 'Floor_Price', 'Floor_Price_USD', 'Average_Price', 'Average_Price_USD', 'Owners', 'Assets', 'Owner_Asset_Ratio']
+INFO:data_preprocessor:Imputed categorical columns: ['Name', 'Category', 'Website', 'Logo']
+INFO:data_preprocessor:No missing values after imputation
+INFO:data_preprocessor:Encoded categories: ['Metaverse', 'Drawing', 'Privilege', 'Collectibles', 'PFP', 'Photography', 'Pixel Art', 'P2E', 'Street Art', 'Print', 'Video', 'Ticket', 'Artifact', 'Immaterial', '3D', 'Audio', 'Sculpture', 'Music Theme', 'Design', 'Image', 'Physical', 'Painting', 'Trademark', 'Graphics', 'Trading Cards', 'AI', 'Performance', 'Picture', 'Music', 'Digital', '2D', 'Art']
+INFO:data_preprocessor:Dropped columns: ['Index', 'Name', 'Website', 'Logo', 'Category']
+INFO:data_preprocessor:Log-transformed columns: ['Volume_USD', 'Floor_Price_USD', 'Sales', 'Owners', 'Assets', 'Market_Cap_USD']
+INFO:data_preprocessor:Features: ['Volume', 'Volume_USD', 'Market_Cap', 'Sales', 'Floor_Price', 'Floor_Price_USD', 'Average_Price', 'Average_Price_USD', 'Owners', 'Assets', 'Owner_Asset_Ratio', 'Category_Metaverse', 'Category_Drawing', 'Category_Privilege', 'Category_Collectibles', 'Category_PFP', 'Category_Photography', 'Category_Pixel Art', 'Category_P2E', 'Category_Street Art', 'Category_Print', 'Category_Video', 'Category_Ticket', 'Category_Artifact', 'Category_Immaterial', 'Category_3D', 'Category_Audio', 'Category_Sculpture', 'Category_Music Theme', 'Category_Design', 'Category_Image', 'Category_Physical', 'Category_Painting', 'Category_Trademark', 'Category_Graphics', 'Category_Trading Cards', 'Category_AI', 'Category_Performance', 'Category_Picture', 'Category_Music', 'Category_Digital', 'Category_2D', 'Category_Art']
+INFO:data_preprocessor:Features scaled
+INFO:data_preprocessor:Preprocessing completed
+INFO:feature_engineering:Starting feature engineering for 592 rows
+INFO:feature_engineering:Created feature: Volume_per_Sale
+INFO:feature_engineering:Created feature: Avg_Price_per_Asset
+INFO:feature_engineering:Created feature: Market_Cap_to_Volume
+INFO:feature_engineering:Handled infinities and NaNs
+INFO:feature_engineering:Dropped columns: ['Volume', 'Market_Cap', 'Floor_Price', 'Average_Price']
+INFO:feature_engineering:Capped outliers in: ['Volume_USD', 'Market_Cap_USD', 'Floor_Price_USD', 'Sales', 'Owners', 'Assets']
+INFO:feature_engineering:Log-transformed: ['Volume_USD', 'Market_Cap_USD', 'Floor_Price_USD', 'Sales', 'Owners', 'Assets', 'Volume_per_Sale']
+INFO:feature_engineering:Scaled columns: ['Volume_USD', 'Sales', 'Floor_Price_USD', 'Average_Price_USD', 'Owners', 'Assets', 'Owner_Asset_Ratio', 'Volume_per_Sale', 'Avg_Price_per_Asset', 'Market_Cap_to_Volume']
+INFO:feature_engineering:Feature engineering completed
+INFO:data_loader:Loaded data with 592 rows
+INFO:data_preprocessor:Starting preprocessing for 592 rows
+INFO:data_preprocessor:Imputed numerical columns: ['Index', 'Volume', 'Volume_USD', 'Market_Cap', 'Market_Cap_USD', 'Sales', 'Floor_Price', 'Floor_Price_USD', 'Average_Price', 'Average_Price_USD', 'Owners', 'Assets', 'Owner_Asset_Ratio']
+INFO:data_preprocessor:Imputed categorical columns: ['Name', 'Category', 'Website', 'Logo']
+INFO:data_preprocessor:No missing values after imputation
+INFO:data_preprocessor:Encoded categories: ['PFP', 'Photography', 'Video', '2D', 'Collectibles', 'Graphics', 'Music', 'Trademark', 'Digital', 'Metaverse', 'Drawing', '3D', 'Ticket', 'Trading Cards', 'Performance', 'Immaterial', 'Physical', 'P2E', 'Artifact', 'Design', 'Street Art', 'Pixel Art', 'Privilege', 'Art', 'Painting', 'Print', 'Picture', 'AI', 'Sculpture', 'Image', 'Audio', 'Music Theme']
+INFO:data_preprocessor:Dropped columns: ['Index', 'Name', 'Website', 'Logo', 'Category']
+INFO:data_preprocessor:Log-transformed columns: ['Volume_USD', 'Floor_Price_USD', 'Sales', 'Owners', 'Assets', 'Market_Cap_USD']
+INFO:data_preprocessor:Features: ['Volume', 'Volume_USD', 'Market_Cap', 'Sales', 'Floor_Price', 'Floor_Price_USD', 'Average_Price', 'Average_Price_USD', 'Owners', 'Assets', 'Owner_Asset_Ratio', 'Category_PFP', 'Category_Photography', 'Category_Video', 'Category_2D', 'Category_Collectibles', 'Category_Graphics', 'Category_Music', 'Category_Trademark', 'Category_Digital', 'Category_Metaverse', 'Category_Drawing', 'Category_3D', 'Category_Ticket', 'Category_Trading Cards', 'Category_Performance', 'Category_Immaterial', 'Category_Physical', 'Category_P2E', 'Category_Artifact', 'Category_Design', 'Category_Street Art', 'Category_Pixel Art', 'Category_Privilege', 'Category_Art', 'Category_Painting', 'Category_Print', 'Category_Picture', 'Category_AI', 'Category_Sculpture', 'Category_Image', 'Category_Audio', 'Category_Music Theme']
+INFO:data_preprocessor:Features scaled
+INFO:data_preprocessor:Preprocessing completed
+INFO:feature_engineering:Starting feature engineering for 592 rows
+INFO:feature_engineering:Created feature: Volume_per_Sale
+INFO:feature_engineering:Created feature: Avg_Price_per_Asset
+INFO:feature_engineering:Created feature: Market_Cap_to_Volume
+INFO:feature_engineering:Handled infinities and NaNs
+INFO:feature_engineering:Dropped columns: ['Volume', 'Market_Cap', 'Floor_Price', 'Average_Price']
+INFO:feature_engineering:Capped outliers in: ['Volume_USD', 'Market_Cap_USD', 'Floor_Price_USD', 'Sales', 'Owners', 'Assets']
+INFO:feature_engineering:Log-transformed: ['Volume_USD', 'Market_Cap_USD', 'Floor_Price_USD', 'Sales', 'Owners', 'Assets', 'Volume_per_Sale']
+INFO:feature_engineering:Scaled columns: ['Volume_USD', 'Sales', 'Floor_Price_USD', 'Average_Price_USD', 'Owners', 'Assets', 'Owner_Asset_Ratio', 'Volume_per_Sale', 'Avg_Price_per_Asset', 'Market_Cap_to_Volume']
+INFO:feature_engineering:Feature engineering completed
+INFO:model_trainer:Data split: 473 train, 119 test samples
+INFO:model_trainer:Best parameters: {'n_estimators': 100, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 0.5, 'max_depth': 10}
+INFO:model_trainer:Evaluation metrics: {'Root Mean Squared Error': np.float64(0.06577407827957431), 'Mean Absolute Error': 0.038923707001002186, 'R²': 0.9963814029045087}
+INFO:data_loader:Loaded data with 592 rows
+INFO:data_preprocessor:Starting preprocessing for 592 rows
+INFO:data_preprocessor:Imputed numerical columns: ['Index', 'Volume', 'Volume_USD', 'Market_Cap', 'Market_Cap_USD', 'Sales', 'Floor_Price', 'Floor_Price_USD', 'Average_Price', 'Average_Price_USD', 'Owners', 'Assets', 'Owner_Asset_Ratio']
+INFO:data_preprocessor:Imputed categorical columns: ['Name', 'Category', 'Website', 'Logo']
+INFO:data_preprocessor:No missing values after imputation
+INFO:data_preprocessor:Encoded categories: ['Trademark', 'Graphics', 'Video', 'Street Art', 'Sculpture', 'Pixel Art', 'Music Theme', '3D', 'Metaverse', 'Print', 'PFP', 'Picture', 'Drawing', 'Painting', 'Audio', 'P2E', 'Photography', 'Music', 'Performance', 'Collectibles', 'Digital', 'Art', 'Image', 'Artifact', '2D', 'Physical', 'Immaterial', 'AI', 'Privilege', 'Trading Cards', 'Design', 'Ticket']
+INFO:data_preprocessor:Dropped columns: ['Index', 'Name', 'Website', 'Logo', 'Category']
+INFO:data_preprocessor:Log-transformed columns: ['Volume_USD', 'Floor_Price_USD', 'Sales', 'Owners', 'Assets', 'Market_Cap_USD']
+INFO:data_preprocessor:Features: ['Volume', 'Volume_USD', 'Market_Cap', 'Sales', 'Floor_Price', 'Floor_Price_USD', 'Average_Price', 'Average_Price_USD', 'Owners', 'Assets', 'Owner_Asset_Ratio', 'Category_Trademark', 'Category_Graphics', 'Category_Video', 'Category_Street Art', 'Category_Sculpture', 'Category_Pixel Art', 'Category_Music Theme', 'Category_3D', 'Category_Metaverse', 'Category_Print', 'Category_PFP', 'Category_Picture', 'Category_Drawing', 'Category_Painting', 'Category_Audio', 'Category_P2E', 'Category_Photography', 'Category_Music', 'Category_Performance', 'Category_Collectibles', 'Category_Digital', 'Category_Art', 'Category_Image', 'Category_Artifact', 'Category_2D', 'Category_Physical', 'Category_Immaterial', 'Category_AI', 'Category_Privilege', 'Category_Trading Cards', 'Category_Design', 'Category_Ticket']
+INFO:data_preprocessor:Features scaled
+INFO:data_preprocessor:Preprocessing completed
+INFO:feature_engineering:Starting feature engineering for 592 rows
+INFO:feature_engineering:Created feature: Volume_per_Sale
+INFO:feature_engineering:Created feature: Avg_Price_per_Asset
+INFO:feature_engineering:Created feature: Market_Cap_to_Volume
+INFO:feature_engineering:Handled infinities and NaNs
+INFO:feature_engineering:Dropped columns: ['Volume', 'Market_Cap', 'Floor_Price', 'Average_Price']
+INFO:feature_engineering:Capped outliers in: ['Volume_USD', 'Market_Cap_USD', 'Floor_Price_USD', 'Sales', 'Owners', 'Assets']
+INFO:feature_engineering:Log-transformed: ['Volume_USD', 'Market_Cap_USD', 'Floor_Price_USD', 'Sales', 'Owners', 'Assets', 'Volume_per_Sale']
+INFO:feature_engineering:Scaled columns: ['Volume_USD', 'Sales', 'Floor_Price_USD', 'Average_Price_USD', 'Owners', 'Assets', 'Owner_Asset_Ratio', 'Volume_per_Sale', 'Avg_Price_per_Asset', 'Market_Cap_to_Volume']
+INFO:feature_engineering:Feature engineering completed
+INFO:model_trainer:Data split: 473 train, 119 test samples
+INFO:model_trainer:Best parameters: {'n_estimators': 300, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 0.5, 'max_depth': None}
+INFO:model_trainer:Evaluation metrics: {'Root Mean Squared Error': np.float64(0.057), 'Mean Absolute Error': 0.033, 'R²': 0.997}
+INFO:data_loader:Loaded data with 592 rows
+INFO:data_preprocessor:Starting preprocessing for 592 rows
+INFO:data_preprocessor:Imputed numerical columns: ['Index', 'Volume', 'Volume_USD', 'Market_Cap', 'Market_Cap_USD', 'Sales', 'Floor_Price', 'Floor_Price_USD', 'Average_Price', 'Average_Price_USD', 'Owners', 'Assets', 'Owner_Asset_Ratio']
+INFO:data_preprocessor:Imputed categorical columns: ['Name', 'Category', 'Website', 'Logo']
+INFO:data_preprocessor:No missing values after imputation
+INFO:data_preprocessor:Encoded categories: ['Music', 'Privilege', 'Street Art', 'Drawing', 'Photography', 'Pixel Art', 'P2E', 'Artifact', 'Physical', 'Sculpture', 'Video', 'Print', 'Audio', 'Metaverse', 'PFP', 'Immaterial', 'Trading Cards', '2D', 'AI', 'Design', 'Music Theme', 'Graphics', 'Digital', 'Ticket', 'Trademark', 'Painting', 'Image', '3D', 'Performance', 'Picture', 'Art', 'Collectibles']
+INFO:data_preprocessor:Dropped columns: ['Index', 'Name', 'Website', 'Logo', 'Category']
+INFO:data_preprocessor:Log-transformed columns: ['Volume_USD', 'Floor_Price_USD', 'Sales', 'Owners', 'Assets', 'Market_Cap_USD']
+INFO:data_preprocessor:Features: ['Volume', 'Volume_USD', 'Market_Cap', 'Sales', 'Floor_Price', 'Floor_Price_USD', 'Average_Price', 'Average_Price_USD', 'Owners', 'Assets', 'Owner_Asset_Ratio', 'Category_Music', 'Category_Privilege', 'Category_Street Art', 'Category_Drawing', 'Category_Photography', 'Category_Pixel Art', 'Category_P2E', 'Category_Artifact', 'Category_Physical', 'Category_Sculpture', 'Category_Video', 'Category_Print', 'Category_Audio', 'Category_Metaverse', 'Category_PFP', 'Category_Immaterial', 'Category_Trading Cards', 'Category_2D', 'Category_AI', 'Category_Design', 'Category_Music Theme', 'Category_Graphics', 'Category_Digital', 'Category_Ticket', 'Category_Trademark', 'Category_Painting', 'Category_Image', 'Category_3D', 'Category_Performance', 'Category_Picture', 'Category_Art', 'Category_Collectibles']
+INFO:data_preprocessor:Features scaled
+INFO:data_preprocessor:Preprocessing completed
+INFO:feature_engineering:Starting feature engineering for 592 rows
+INFO:feature_engineering:Created feature: Volume_per_Sale
+INFO:feature_engineering:Created feature: Avg_Price_per_Asset
+INFO:feature_engineering:Created feature: Market_Cap_to_Volume
+INFO:feature_engineering:Handled infinities and NaNs
+INFO:feature_engineering:Dropped columns: ['Volume', 'Market_Cap', 'Floor_Price', 'Average_Price']
+INFO:feature_engineering:Capped outliers in: ['Volume_USD', 'Market_Cap_USD', 'Floor_Price_USD', 'Sales', 'Owners', 'Assets']
+INFO:feature_engineering:Log-transformed: ['Volume_USD', 'Market_Cap_USD', 'Floor_Price_USD', 'Sales', 'Owners', 'Assets', 'Volume_per_Sale']
+INFO:feature_engineering:Scaled columns: ['Volume_USD', 'Sales', 'Floor_Price_USD', 'Average_Price_USD', 'Owners', 'Assets', 'Owner_Asset_Ratio', 'Volume_per_Sale', 'Avg_Price_per_Asset', 'Market_Cap_to_Volume']
+INFO:feature_engineering:Feature engineering completed
+INFO:model_trainer:Data split: 473 train, 119 test samples
+INFO:model_trainer:Best parameters: {'n_estimators': 300, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 0.5, 'max_depth': None}
+INFO:model_trainer:Evaluation metrics: {'Root Mean Squared Error': np.float64(0.053), 'Mean Absolute Error': 0.033, 'R²': 0.998}
+INFO:model_trainer:Model and scaler saved to models/nft_pricing_model.pkl
+2025-04-13 02:34:18,736 - ERROR - Error loading model/scaler: 'model'
+2025-04-13 02:34:33,713 - INFO - Model and scaler loaded successfully
+2025-04-13 02:34:33,762 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-13 02:34:33,762 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 02:34:33,768 - INFO -  * Restarting with stat
+2025-04-13 02:34:37,177 - INFO - Model and scaler loaded successfully
+2025-04-13 02:34:37,199 - WARNING -  * Debugger is active!
+2025-04-13 02:34:37,204 - INFO -  * Debugger PIN: 122-535-074
+2025-04-13 02:35:08,372 - INFO - Fetching features and categories
+2025-04-13 02:35:08,372 - INFO - 127.0.0.1 - - [13/Apr/2025 02:35:08] "GET /features HTTP/1.1" 200 -
+2025-04-13 02:35:08,615 - INFO - Fetching features and categories
+2025-04-13 02:35:08,615 - INFO - 127.0.0.1 - - [13/Apr/2025 02:35:08] "GET /features HTTP/1.1" 200 -
+2025-04-13 02:35:24,318 - INFO - 127.0.0.1 - - [13/Apr/2025 02:35:24] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-13 02:35:24,564 - INFO - Received prediction request: {'Volume_USD': 151995, 'Sales': 426, 'Floor_Price_USD': 150, 'Average_Price_USD': 2003, 'Category': 'Art'}
+2025-04-13 02:35:24,587 - INFO - Input DataFrame: {'Volume_USD': {0: 151995.0}, 'Sales': {0: 426.0}, 'Floor_Price_USD': {0: 150.0}, 'Average_Price_USD': {0: 2003.0}, 'Owners': {0: 0.0}, 'Assets': {0: 0.0}, 'Owner_Asset_Ratio': {0: 0}, 'Category_Collectibles': {0: 0}, 'Category_Art': {0: 1}, 'Category_Gaming': {0: 0}, 'Category_Metaverse': {0: 0}, 'Category_Utility': {0: 0}, 'Category_Other': {0: 0}, 'Volume_per_Sale': {0: 356.7957746478873}, 'Avg_Price_per_Asset': {0: 2003.0}, 'Market_Cap_to_Volume': {0: 0}}
+2025-04-13 02:35:24,591 - ERROR - Prediction error: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- Category_Gaming
+- Category_Other
+- Category_Utility
+Feature names seen at fit time, yet now missing:
+- Category_2D
+- Category_3D
+- Category_AI
+- Category_Artifact
+- Category_Audio
+- ...
+
+2025-04-13 02:35:24,595 - INFO - 127.0.0.1 - - [13/Apr/2025 02:35:24] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-13 02:35:45,226 - INFO - 127.0.0.1 - - [13/Apr/2025 02:35:45] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-13 02:35:45,475 - INFO - Received prediction request: {'Volume_USD': 151995, 'Sales': 426, 'Floor_Price_USD': 150, 'Average_Price_USD': 2003, 'Category': 'Gaming'}
+2025-04-13 02:35:45,482 - INFO - Input DataFrame: {'Volume_USD': {0: 151995.0}, 'Sales': {0: 426.0}, 'Floor_Price_USD': {0: 150.0}, 'Average_Price_USD': {0: 2003.0}, 'Owners': {0: 0.0}, 'Assets': {0: 0.0}, 'Owner_Asset_Ratio': {0: 0}, 'Category_Collectibles': {0: 0}, 'Category_Art': {0: 0}, 'Category_Gaming': {0: 1}, 'Category_Metaverse': {0: 0}, 'Category_Utility': {0: 0}, 'Category_Other': {0: 0}, 'Volume_per_Sale': {0: 356.7957746478873}, 'Avg_Price_per_Asset': {0: 2003.0}, 'Market_Cap_to_Volume': {0: 0}}
+2025-04-13 02:35:45,484 - ERROR - Prediction error: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- Category_Gaming
+- Category_Other
+- Category_Utility
+Feature names seen at fit time, yet now missing:
+- Category_2D
+- Category_3D
+- Category_AI
+- Category_Artifact
+- Category_Audio
+- ...
+
+2025-04-13 02:35:45,484 - INFO - 127.0.0.1 - - [13/Apr/2025 02:35:45] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-13 02:36:37,588 - INFO - 127.0.0.1 - - [13/Apr/2025 02:36:37] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-13 02:36:37,831 - INFO - Received prediction request: {'Volume_USD': 151995, 'Sales': 426, 'Floor_Price_USD': 150, 'Average_Price_USD': 2003, 'Category': 'Gaming'}
+2025-04-13 02:36:37,837 - INFO - Input DataFrame: {'Volume_USD': {0: 151995.0}, 'Sales': {0: 426.0}, 'Floor_Price_USD': {0: 150.0}, 'Average_Price_USD': {0: 2003.0}, 'Owners': {0: 0.0}, 'Assets': {0: 0.0}, 'Owner_Asset_Ratio': {0: 0}, 'Category_Collectibles': {0: 0}, 'Category_Art': {0: 0}, 'Category_Gaming': {0: 1}, 'Category_Metaverse': {0: 0}, 'Category_Utility': {0: 0}, 'Category_Other': {0: 0}, 'Volume_per_Sale': {0: 356.7957746478873}, 'Avg_Price_per_Asset': {0: 2003.0}, 'Market_Cap_to_Volume': {0: 0}}
+2025-04-13 02:36:37,837 - ERROR - Prediction error: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- Category_Gaming
+- Category_Other
+- Category_Utility
+Feature names seen at fit time, yet now missing:
+- Category_2D
+- Category_3D
+- Category_AI
+- Category_Artifact
+- Category_Audio
+- ...
+
+2025-04-13 02:36:37,837 - INFO - 127.0.0.1 - - [13/Apr/2025 02:36:37] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-13 02:36:56,065 - INFO - 127.0.0.1 - - [13/Apr/2025 02:36:56] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-13 02:36:56,320 - INFO - Received prediction request: {'Volume_USD': 151995, 'Sales': 426, 'Floor_Price_USD': 150, 'Average_Price_USD': 2003, 'Category': 'Other'}
+2025-04-13 02:36:56,326 - INFO - Input DataFrame: {'Volume_USD': {0: 151995.0}, 'Sales': {0: 426.0}, 'Floor_Price_USD': {0: 150.0}, 'Average_Price_USD': {0: 2003.0}, 'Owners': {0: 0.0}, 'Assets': {0: 0.0}, 'Owner_Asset_Ratio': {0: 0}, 'Category_Collectibles': {0: 0}, 'Category_Art': {0: 0}, 'Category_Gaming': {0: 0}, 'Category_Metaverse': {0: 0}, 'Category_Utility': {0: 0}, 'Category_Other': {0: 1}, 'Volume_per_Sale': {0: 356.7957746478873}, 'Avg_Price_per_Asset': {0: 2003.0}, 'Market_Cap_to_Volume': {0: 0}}
+2025-04-13 02:36:56,326 - ERROR - Prediction error: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- Category_Gaming
+- Category_Other
+- Category_Utility
+Feature names seen at fit time, yet now missing:
+- Category_2D
+- Category_3D
+- Category_AI
+- Category_Artifact
+- Category_Audio
+- ...
+
+2025-04-13 02:36:56,326 - INFO - 127.0.0.1 - - [13/Apr/2025 02:36:56] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-13 02:41:59,875 - INFO -  * Detected change in 'E:\\Hackathon-SmartNFT\\backend\\app.py', reloading
+2025-04-13 02:42:00,498 - INFO -  * Restarting with stat
+2025-04-13 02:52:28,009 - INFO - Model and scaler loaded successfully
+2025-04-13 02:52:28,083 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-13 02:52:28,083 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 02:52:28,086 - INFO -  * Restarting with stat
+2025-04-13 02:52:32,206 - INFO - Model and scaler loaded successfully
+2025-04-13 02:52:32,222 - WARNING -  * Debugger is active!
+2025-04-13 02:52:32,222 - INFO -  * Debugger PIN: 122-535-074
+2025-04-13 02:52:37,069 - INFO - Fetching features and categories
+2025-04-13 02:52:37,069 - INFO - 127.0.0.1 - - [13/Apr/2025 02:52:37] "GET /features HTTP/1.1" 200 -
+2025-04-13 02:52:37,332 - INFO - Fetching features and categories
+2025-04-13 02:52:37,333 - INFO - 127.0.0.1 - - [13/Apr/2025 02:52:37] "GET /features HTTP/1.1" 200 -
+2025-04-13 02:52:54,192 - INFO - 127.0.0.1 - - [13/Apr/2025 02:52:54] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-13 02:52:54,445 - INFO - Received prediction request: {'Volume_USD': 1054525, 'Sales': 507, 'Floor_Price_USD': 25, 'Average_Price_USD': 1259, 'Category': 'Music Theme'}
+2025-04-13 02:52:54,469 - INFO - Input DataFrame: {'Volume_USD': {0: 1054525.0}, 'Market_Cap_USD': {0: nan}, 'Sales': {0: 507.0}, 'Floor_Price_USD': {0: 25.0}, 'Average_Price_USD': {0: 1259.0}, 'Owners': {0: 0.0}, 'Assets': {0: 0.0}, 'Owner_Asset_Ratio': {0: 0}, 'Category_Physical': {0: nan}, 'Category_Metaverse': {0: nan}, 'Category_Image': {0: nan}, 'Category_Photography': {0: 0}, 'Category_Painting': {0: 0}, 'Category_Design': {0: nan}, 'Category_Trademark': {0: 0}, 'Category_Print': {0: nan}, 'Category_Pixel Art': {0: nan}, 'Category_Music Theme': {0: 1}, 'Category_Sculpture': {0: nan}, 'Category_3D': {0: 0}, 'Category_Privilege': {0: nan}, 'Category_Street Art': {0: 0}, 'Category_Graphics': {0: 0}, 'Category_AI': {0: 0}, 'Category_Immaterial': {0: nan}, 'Category_Video': {0: nan}, 'Category_Picture': {0: nan}, 'Category_Audio': {0: 0}, 'Category_Ticket': {0: 0}, 'Category_Art': {0: 0}, 'Category_Artifact': {0: 0}, 'Category_Performance': {0: nan}, 'Category_PFP': {0: nan}, 'Category_Drawing': {0: nan}, 'Category_Collectibles': {0: nan}, 'Category_2D': {0: 0}, 'Category_Digital': {0: nan}, 'Category_Trading Cards': {0: nan}, 'Volume_per_Sale': {0: 2079.930966469428}, 'Avg_Price_per_Asset': {0: 1259.0}, 'Market_Cap_to_Volume': {0: 0}}
+2025-04-13 02:52:54,469 - ERROR - NaN values in input DataFrame
+2025-04-13 02:52:54,469 - INFO - 127.0.0.1 - - [13/Apr/2025 02:52:54] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-04-13 02:53:06,472 - INFO - 127.0.0.1 - - [13/Apr/2025 02:53:06] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-13 02:53:06,735 - INFO - Received prediction request: {'Volume_USD': 105449, 'Sales': 507, 'Floor_Price_USD': 25, 'Average_Price_USD': 1259, 'Category': 'Music Theme'}
+2025-04-13 02:53:06,742 - INFO - Input DataFrame: {'Volume_USD': {0: 105449.0}, 'Market_Cap_USD': {0: nan}, 'Sales': {0: 507.0}, 'Floor_Price_USD': {0: 25.0}, 'Average_Price_USD': {0: 1259.0}, 'Owners': {0: 0.0}, 'Assets': {0: 0.0}, 'Owner_Asset_Ratio': {0: 0}, 'Category_Physical': {0: nan}, 'Category_Metaverse': {0: nan}, 'Category_Image': {0: nan}, 'Category_Photography': {0: 0}, 'Category_Painting': {0: 0}, 'Category_Design': {0: nan}, 'Category_Trademark': {0: 0}, 'Category_Print': {0: nan}, 'Category_Pixel Art': {0: nan}, 'Category_Music Theme': {0: 1}, 'Category_Sculpture': {0: nan}, 'Category_3D': {0: 0}, 'Category_Privilege': {0: nan}, 'Category_Street Art': {0: 0}, 'Category_Graphics': {0: 0}, 'Category_AI': {0: 0}, 'Category_Immaterial': {0: nan}, 'Category_Video': {0: nan}, 'Category_Picture': {0: nan}, 'Category_Audio': {0: 0}, 'Category_Ticket': {0: 0}, 'Category_Art': {0: 0}, 'Category_Artifact': {0: 0}, 'Category_Performance': {0: nan}, 'Category_PFP': {0: nan}, 'Category_Drawing': {0: nan}, 'Category_Collectibles': {0: nan}, 'Category_2D': {0: 0}, 'Category_Digital': {0: nan}, 'Category_Trading Cards': {0: nan}, 'Volume_per_Sale': {0: 207.9861932938856}, 'Avg_Price_per_Asset': {0: 1259.0}, 'Market_Cap_to_Volume': {0: 0}}
+2025-04-13 02:53:06,752 - ERROR - NaN values in input DataFrame
+2025-04-13 02:53:06,752 - INFO - 127.0.0.1 - - [13/Apr/2025 02:53:06] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-04-13 02:53:17,240 - INFO - 127.0.0.1 - - [13/Apr/2025 02:53:17] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-13 02:53:17,503 - INFO - Received prediction request: {'Volume_USD': 999996, 'Sales': 507, 'Floor_Price_USD': 25, 'Average_Price_USD': 1259, 'Category': 'Music Theme'}
+2025-04-13 02:53:17,510 - INFO - Input DataFrame: {'Volume_USD': {0: 999996.0}, 'Market_Cap_USD': {0: nan}, 'Sales': {0: 507.0}, 'Floor_Price_USD': {0: 25.0}, 'Average_Price_USD': {0: 1259.0}, 'Owners': {0: 0.0}, 'Assets': {0: 0.0}, 'Owner_Asset_Ratio': {0: 0}, 'Category_Physical': {0: nan}, 'Category_Metaverse': {0: nan}, 'Category_Image': {0: nan}, 'Category_Photography': {0: 0}, 'Category_Painting': {0: 0}, 'Category_Design': {0: nan}, 'Category_Trademark': {0: 0}, 'Category_Print': {0: nan}, 'Category_Pixel Art': {0: nan}, 'Category_Music Theme': {0: 1}, 'Category_Sculpture': {0: nan}, 'Category_3D': {0: 0}, 'Category_Privilege': {0: nan}, 'Category_Street Art': {0: 0}, 'Category_Graphics': {0: 0}, 'Category_AI': {0: 0}, 'Category_Immaterial': {0: nan}, 'Category_Video': {0: nan}, 'Category_Picture': {0: nan}, 'Category_Audio': {0: 0}, 'Category_Ticket': {0: 0}, 'Category_Art': {0: 0}, 'Category_Artifact': {0: 0}, 'Category_Performance': {0: nan}, 'Category_PFP': {0: nan}, 'Category_Drawing': {0: nan}, 'Category_Collectibles': {0: nan}, 'Category_2D': {0: 0}, 'Category_Digital': {0: nan}, 'Category_Trading Cards': {0: nan}, 'Volume_per_Sale': {0: 1972.378698224852}, 'Avg_Price_per_Asset': {0: 1259.0}, 'Market_Cap_to_Volume': {0: 0}}
+2025-04-13 02:53:17,518 - ERROR - NaN values in input DataFrame
+2025-04-13 02:53:17,519 - INFO - 127.0.0.1 - - [13/Apr/2025 02:53:17] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-04-13 02:53:22,224 - INFO - Received prediction request: {'Volume_USD': 999996, 'Sales': 507, 'Floor_Price_USD': 25, 'Average_Price_USD': 1259, 'Category': 'Art'}
+2025-04-13 02:53:22,230 - INFO - Input DataFrame: {'Volume_USD': {0: 999996.0}, 'Market_Cap_USD': {0: nan}, 'Sales': {0: 507.0}, 'Floor_Price_USD': {0: 25.0}, 'Average_Price_USD': {0: 1259.0}, 'Owners': {0: 0.0}, 'Assets': {0: 0.0}, 'Owner_Asset_Ratio': {0: 0}, 'Category_Physical': {0: nan}, 'Category_Metaverse': {0: nan}, 'Category_Image': {0: nan}, 'Category_Photography': {0: 0}, 'Category_Painting': {0: 0}, 'Category_Design': {0: nan}, 'Category_Trademark': {0: 0}, 'Category_Print': {0: nan}, 'Category_Pixel Art': {0: nan}, 'Category_Music Theme': {0: 0}, 'Category_Sculpture': {0: nan}, 'Category_3D': {0: 0}, 'Category_Privilege': {0: nan}, 'Category_Street Art': {0: 0}, 'Category_Graphics': {0: 0}, 'Category_AI': {0: 0}, 'Category_Immaterial': {0: nan}, 'Category_Video': {0: nan}, 'Category_Picture': {0: nan}, 'Category_Audio': {0: 0}, 'Category_Ticket': {0: 0}, 'Category_Art': {0: 1}, 'Category_Artifact': {0: 0}, 'Category_Performance': {0: nan}, 'Category_PFP': {0: nan}, 'Category_Drawing': {0: nan}, 'Category_Collectibles': {0: nan}, 'Category_2D': {0: 0}, 'Category_Digital': {0: nan}, 'Category_Trading Cards': {0: nan}, 'Volume_per_Sale': {0: 1972.378698224852}, 'Avg_Price_per_Asset': {0: 1259.0}, 'Market_Cap_to_Volume': {0: 0}}
+2025-04-13 02:53:22,230 - ERROR - NaN values in input DataFrame
+2025-04-13 02:53:22,230 - INFO - 127.0.0.1 - - [13/Apr/2025 02:53:22] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-04-13 02:53:29,697 - INFO - 127.0.0.1 - - [13/Apr/2025 02:53:29] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-13 02:53:30,018 - INFO - Received prediction request: {'Volume_USD': 999996, 'Sales': 507, 'Floor_Price_USD': 25, 'Average_Price_USD': 1259, 'Category': '2D'}
+2025-04-13 02:53:30,025 - INFO - Input DataFrame: {'Volume_USD': {0: 999996.0}, 'Market_Cap_USD': {0: nan}, 'Sales': {0: 507.0}, 'Floor_Price_USD': {0: 25.0}, 'Average_Price_USD': {0: 1259.0}, 'Owners': {0: 0.0}, 'Assets': {0: 0.0}, 'Owner_Asset_Ratio': {0: 0}, 'Category_Physical': {0: nan}, 'Category_Metaverse': {0: nan}, 'Category_Image': {0: nan}, 'Category_Photography': {0: 0}, 'Category_Painting': {0: 0}, 'Category_Design': {0: nan}, 'Category_Trademark': {0: 0}, 'Category_Print': {0: nan}, 'Category_Pixel Art': {0: nan}, 'Category_Music Theme': {0: 0}, 'Category_Sculpture': {0: nan}, 'Category_3D': {0: 0}, 'Category_Privilege': {0: nan}, 'Category_Street Art': {0: 0}, 'Category_Graphics': {0: 0}, 'Category_AI': {0: 0}, 'Category_Immaterial': {0: nan}, 'Category_Video': {0: nan}, 'Category_Picture': {0: nan}, 'Category_Audio': {0: 0}, 'Category_Ticket': {0: 0}, 'Category_Art': {0: 0}, 'Category_Artifact': {0: 0}, 'Category_Performance': {0: nan}, 'Category_PFP': {0: nan}, 'Category_Drawing': {0: nan}, 'Category_Collectibles': {0: nan}, 'Category_2D': {0: 1}, 'Category_Digital': {0: nan}, 'Category_Trading Cards': {0: nan}, 'Volume_per_Sale': {0: 1972.378698224852}, 'Avg_Price_per_Asset': {0: 1259.0}, 'Market_Cap_to_Volume': {0: 0}}
+2025-04-13 02:53:30,025 - ERROR - NaN values in input DataFrame
+2025-04-13 02:53:30,025 - INFO - 127.0.0.1 - - [13/Apr/2025 02:53:30] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-04-13 02:53:54,406 - INFO - 127.0.0.1 - - [13/Apr/2025 02:53:54] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-13 02:53:54,669 - INFO - Received prediction request: {'Volume_USD': 999994, 'Sales': 500, 'Floor_Price_USD': 100, 'Average_Price_USD': 2000, 'Category': '2D'}
+2025-04-13 02:53:54,677 - INFO - Input DataFrame: {'Volume_USD': {0: 999994.0}, 'Market_Cap_USD': {0: nan}, 'Sales': {0: 500.0}, 'Floor_Price_USD': {0: 100.0}, 'Average_Price_USD': {0: 2000.0}, 'Owners': {0: 0.0}, 'Assets': {0: 0.0}, 'Owner_Asset_Ratio': {0: 0}, 'Category_Physical': {0: nan}, 'Category_Metaverse': {0: nan}, 'Category_Image': {0: nan}, 'Category_Photography': {0: 0}, 'Category_Painting': {0: 0}, 'Category_Design': {0: nan}, 'Category_Trademark': {0: 0}, 'Category_Print': {0: nan}, 'Category_Pixel Art': {0: nan}, 'Category_Music Theme': {0: 0}, 'Category_Sculpture': {0: nan}, 'Category_3D': {0: 0}, 'Category_Privilege': {0: nan}, 'Category_Street Art': {0: 0}, 'Category_Graphics': {0: 0}, 'Category_AI': {0: 0}, 'Category_Immaterial': {0: nan}, 'Category_Video': {0: nan}, 'Category_Picture': {0: nan}, 'Category_Audio': {0: 0}, 'Category_Ticket': {0: 0}, 'Category_Art': {0: 0}, 'Category_Artifact': {0: 0}, 'Category_Performance': {0: nan}, 'Category_PFP': {0: nan}, 'Category_Drawing': {0: nan}, 'Category_Collectibles': {0: nan}, 'Category_2D': {0: 1}, 'Category_Digital': {0: nan}, 'Category_Trading Cards': {0: nan}, 'Volume_per_Sale': {0: 1999.988}, 'Avg_Price_per_Asset': {0: 2000.0}, 'Market_Cap_to_Volume': {0: 0}}
+2025-04-13 02:53:54,677 - ERROR - NaN values in input DataFrame
+2025-04-13 02:53:54,677 - INFO - 127.0.0.1 - - [13/Apr/2025 02:53:54] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-04-13 02:54:00,355 - INFO - 127.0.0.1 - - [13/Apr/2025 02:54:00] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-13 02:54:00,666 - INFO - Received prediction request: {'Volume_USD': 999994, 'Sales': 500, 'Floor_Price_USD': 100, 'Average_Price_USD': 2000, 'Category': '2D'}
+2025-04-13 02:54:00,673 - INFO - Input DataFrame: {'Volume_USD': {0: 999994.0}, 'Market_Cap_USD': {0: nan}, 'Sales': {0: 500.0}, 'Floor_Price_USD': {0: 100.0}, 'Average_Price_USD': {0: 2000.0}, 'Owners': {0: 0.0}, 'Assets': {0: 0.0}, 'Owner_Asset_Ratio': {0: 0}, 'Category_Physical': {0: nan}, 'Category_Metaverse': {0: nan}, 'Category_Image': {0: nan}, 'Category_Photography': {0: 0}, 'Category_Painting': {0: 0}, 'Category_Design': {0: nan}, 'Category_Trademark': {0: 0}, 'Category_Print': {0: nan}, 'Category_Pixel Art': {0: nan}, 'Category_Music Theme': {0: 0}, 'Category_Sculpture': {0: nan}, 'Category_3D': {0: 0}, 'Category_Privilege': {0: nan}, 'Category_Street Art': {0: 0}, 'Category_Graphics': {0: 0}, 'Category_AI': {0: 0}, 'Category_Immaterial': {0: nan}, 'Category_Video': {0: nan}, 'Category_Picture': {0: nan}, 'Category_Audio': {0: 0}, 'Category_Ticket': {0: 0}, 'Category_Art': {0: 0}, 'Category_Artifact': {0: 0}, 'Category_Performance': {0: nan}, 'Category_PFP': {0: nan}, 'Category_Drawing': {0: nan}, 'Category_Collectibles': {0: nan}, 'Category_2D': {0: 1}, 'Category_Digital': {0: nan}, 'Category_Trading Cards': {0: nan}, 'Volume_per_Sale': {0: 1999.988}, 'Avg_Price_per_Asset': {0: 2000.0}, 'Market_Cap_to_Volume': {0: 0}}
+2025-04-13 02:54:00,673 - ERROR - NaN values in input DataFrame
+2025-04-13 02:54:00,681 - INFO - 127.0.0.1 - - [13/Apr/2025 02:54:00] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-04-13 02:54:10,155 - INFO - Fetching features and categories
+2025-04-13 02:54:10,155 - INFO - 127.0.0.1 - - [13/Apr/2025 02:54:10] "GET /features HTTP/1.1" 200 -
+2025-04-13 02:54:10,411 - INFO - Fetching features and categories
+2025-04-13 02:54:10,411 - INFO - 127.0.0.1 - - [13/Apr/2025 02:54:10] "GET /features HTTP/1.1" 200 -
+2025-04-13 02:54:15,153 - INFO - Fetching features and categories
+2025-04-13 02:54:15,155 - INFO - 127.0.0.1 - - [13/Apr/2025 02:54:15] "GET /features HTTP/1.1" 200 -
+2025-04-13 02:54:15,413 - INFO - Fetching features and categories
+2025-04-13 02:54:15,417 - INFO - 127.0.0.1 - - [13/Apr/2025 02:54:15] "GET /features HTTP/1.1" 200 -
+2025-04-13 02:54:44,691 - INFO -  * Detected change in 'E:\\Hackathon-SmartNFT\\backend\\app.py', reloading
+2025-04-13 02:54:45,131 - INFO -  * Restarting with stat
+2025-04-13 02:55:17,792 - INFO - Model and scaler loaded successfully
+2025-04-13 02:55:17,826 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-13 02:55:17,827 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 02:55:17,827 - INFO -  * Restarting with stat
+2025-04-13 02:55:21,788 - INFO - Model and scaler loaded successfully
+2025-04-13 02:55:21,805 - WARNING -  * Debugger is active!
+2025-04-13 02:55:21,805 - INFO -  * Debugger PIN: 122-535-074
+2025-04-13 02:55:23,382 - INFO - Fetching features and categories
+2025-04-13 02:55:23,382 - INFO - 127.0.0.1 - - [13/Apr/2025 02:55:23] "GET /features HTTP/1.1" 200 -
+2025-04-13 02:55:23,645 - INFO - Fetching features and categories
+2025-04-13 02:55:23,645 - INFO - 127.0.0.1 - - [13/Apr/2025 02:55:23] "GET /features HTTP/1.1" 200 -
+2025-04-13 02:55:54,427 - INFO - 127.0.0.1 - - [13/Apr/2025 02:55:54] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-13 02:55:54,688 - INFO - Received prediction request: {'Volume_USD': 1000000, 'Sales': 500, 'Floor_Price_USD': 100, 'Average_Price_USD': 2000, 'Category': '2D'}
+2025-04-13 02:55:54,698 - INFO - Input DataFrame: {'Volume_USD': {0: 1000000.0}, 'Sales': {0: 500.0}, 'Floor_Price_USD': {0: 100.0}, 'Average_Price_USD': {0: 2000.0}, 'Owners': {0: 0.0}, 'Assets': {0: 0.0}, 'Owner_Asset_Ratio': {0: 0}, 'Category_2D': {0: 1}, 'Category_3D': {0: 0}, 'Category_AI': {0: 0}, 'Category_Artifact': {0: 0}, 'Category_Audio': {0: 0}, 'Volume_per_Sale': {0: 2000.0}, 'Avg_Price_per_Asset': {0: 2000.0}, 'Market_Cap_to_Volume': {0: 0}}
+2025-04-13 02:55:54,699 - ERROR - Prediction error: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- Category_Art
+- Category_Collectibles
+- Category_Design
+- Category_Digital
+- Category_Drawing
+- ...
+
+2025-04-13 02:55:54,701 - INFO - 127.0.0.1 - - [13/Apr/2025 02:55:54] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-13 02:56:07,006 - INFO - 127.0.0.1 - - [13/Apr/2025 02:56:07] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-13 02:56:07,262 - INFO - Received prediction request: {'Volume_USD': 1000000, 'Sales': 500, 'Floor_Price_USD': 100, 'Average_Price_USD': 2000, 'Category': 'Artifact'}
+2025-04-13 02:56:07,269 - INFO - Input DataFrame: {'Volume_USD': {0: 1000000.0}, 'Sales': {0: 500.0}, 'Floor_Price_USD': {0: 100.0}, 'Average_Price_USD': {0: 2000.0}, 'Owners': {0: 0.0}, 'Assets': {0: 0.0}, 'Owner_Asset_Ratio': {0: 0}, 'Category_2D': {0: 0}, 'Category_3D': {0: 0}, 'Category_AI': {0: 0}, 'Category_Artifact': {0: 1}, 'Category_Audio': {0: 0}, 'Volume_per_Sale': {0: 2000.0}, 'Avg_Price_per_Asset': {0: 2000.0}, 'Market_Cap_to_Volume': {0: 0}}
+2025-04-13 02:56:07,269 - ERROR - Prediction error: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- Category_Art
+- Category_Collectibles
+- Category_Design
+- Category_Digital
+- Category_Drawing
+- ...
+
+2025-04-13 02:56:07,269 - INFO - 127.0.0.1 - - [13/Apr/2025 02:56:07] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-13 02:56:22,371 - INFO - 127.0.0.1 - - [13/Apr/2025 02:56:22] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-13 02:56:22,618 - INFO - Received prediction request: {'Volume_USD': 1000000, 'Sales': 500, 'Floor_Price_USD': 100, 'Average_Price_USD': 2000, 'Category': 'Audio'}
+2025-04-13 02:56:22,625 - INFO - Input DataFrame: {'Volume_USD': {0: 1000000.0}, 'Sales': {0: 500.0}, 'Floor_Price_USD': {0: 100.0}, 'Average_Price_USD': {0: 2000.0}, 'Owners': {0: 0.0}, 'Assets': {0: 0.0}, 'Owner_Asset_Ratio': {0: 0}, 'Category_2D': {0: 0}, 'Category_3D': {0: 0}, 'Category_AI': {0: 0}, 'Category_Artifact': {0: 0}, 'Category_Audio': {0: 1}, 'Volume_per_Sale': {0: 2000.0}, 'Avg_Price_per_Asset': {0: 2000.0}, 'Market_Cap_to_Volume': {0: 0}}
+2025-04-13 02:56:22,625 - ERROR - Prediction error: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- Category_Art
+- Category_Collectibles
+- Category_Design
+- Category_Digital
+- Category_Drawing
+- ...
+
+2025-04-13 02:56:22,625 - INFO - 127.0.0.1 - - [13/Apr/2025 02:56:22] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-13 03:07:19,579 - INFO - 127.0.0.1 - - [13/Apr/2025 03:07:19] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-13 03:07:19,834 - INFO - Received prediction request: {'Volume_USD': 1000000, 'Sales': 500, 'Floor_Price_USD': 100, 'Average_Price_USD': 2000, 'Category': 'AI'}
+2025-04-13 03:07:19,841 - INFO - Input DataFrame: {'Volume_USD': {0: 1000000.0}, 'Sales': {0: 500.0}, 'Floor_Price_USD': {0: 100.0}, 'Average_Price_USD': {0: 2000.0}, 'Owners': {0: 0.0}, 'Assets': {0: 0.0}, 'Owner_Asset_Ratio': {0: 0}, 'Category_2D': {0: 0}, 'Category_3D': {0: 0}, 'Category_AI': {0: 1}, 'Category_Artifact': {0: 0}, 'Category_Audio': {0: 0}, 'Volume_per_Sale': {0: 2000.0}, 'Avg_Price_per_Asset': {0: 2000.0}, 'Market_Cap_to_Volume': {0: 0}}
+2025-04-13 03:07:19,842 - ERROR - Prediction error: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- Category_Art
+- Category_Collectibles
+- Category_Design
+- Category_Digital
+- Category_Drawing
+- ...
+
+2025-04-13 03:07:19,842 - INFO - 127.0.0.1 - - [13/Apr/2025 03:07:19] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-13 03:12:23,907 - INFO - 127.0.0.1 - - [13/Apr/2025 03:12:23] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-13 03:12:24,159 - INFO - Received prediction request: {'Volume_USD': 1000000, 'Sales': 500, 'Floor_Price_USD': 100, 'Average_Price_USD': 2000, 'Category': 'AI'}
+2025-04-13 03:12:24,165 - INFO - Input DataFrame: {'Volume_USD': {0: 1000000.0}, 'Sales': {0: 500.0}, 'Floor_Price_USD': {0: 100.0}, 'Average_Price_USD': {0: 2000.0}, 'Owners': {0: 0.0}, 'Assets': {0: 0.0}, 'Owner_Asset_Ratio': {0: 0}, 'Category_2D': {0: 0}, 'Category_3D': {0: 0}, 'Category_AI': {0: 1}, 'Category_Artifact': {0: 0}, 'Category_Audio': {0: 0}, 'Volume_per_Sale': {0: 2000.0}, 'Avg_Price_per_Asset': {0: 2000.0}, 'Market_Cap_to_Volume': {0: 0}}
+2025-04-13 03:12:24,165 - ERROR - Prediction error: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- Category_Art
+- Category_Collectibles
+- Category_Design
+- Category_Digital
+- Category_Drawing
+- ...
+
+2025-04-13 03:12:24,165 - INFO - 127.0.0.1 - - [13/Apr/2025 03:12:24] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-13 03:12:27,597 - INFO - Received prediction request: {'Volume_USD': 1000000, 'Sales': 500, 'Floor_Price_USD': 100, 'Average_Price_USD': 2000, 'Category': 'AI'}
+2025-04-13 03:12:27,597 - INFO - Input DataFrame: {'Volume_USD': {0: 1000000.0}, 'Sales': {0: 500.0}, 'Floor_Price_USD': {0: 100.0}, 'Average_Price_USD': {0: 2000.0}, 'Owners': {0: 0.0}, 'Assets': {0: 0.0}, 'Owner_Asset_Ratio': {0: 0}, 'Category_2D': {0: 0}, 'Category_3D': {0: 0}, 'Category_AI': {0: 1}, 'Category_Artifact': {0: 0}, 'Category_Audio': {0: 0}, 'Volume_per_Sale': {0: 2000.0}, 'Avg_Price_per_Asset': {0: 2000.0}, 'Market_Cap_to_Volume': {0: 0}}
+2025-04-13 03:12:27,597 - ERROR - Prediction error: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- Category_Art
+- Category_Collectibles
+- Category_Design
+- Category_Digital
+- Category_Drawing
+- ...
+
+2025-04-13 03:12:27,597 - INFO - 127.0.0.1 - - [13/Apr/2025 03:12:27] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-13 03:12:28,705 - INFO - Received prediction request: {'Volume_USD': 1000000, 'Sales': 500, 'Floor_Price_USD': 100, 'Average_Price_USD': 2000, 'Category': 'AI'}
+2025-04-13 03:12:28,705 - INFO - Input DataFrame: {'Volume_USD': {0: 1000000.0}, 'Sales': {0: 500.0}, 'Floor_Price_USD': {0: 100.0}, 'Average_Price_USD': {0: 2000.0}, 'Owners': {0: 0.0}, 'Assets': {0: 0.0}, 'Owner_Asset_Ratio': {0: 0}, 'Category_2D': {0: 0}, 'Category_3D': {0: 0}, 'Category_AI': {0: 1}, 'Category_Artifact': {0: 0}, 'Category_Audio': {0: 0}, 'Volume_per_Sale': {0: 2000.0}, 'Avg_Price_per_Asset': {0: 2000.0}, 'Market_Cap_to_Volume': {0: 0}}
+2025-04-13 03:12:28,711 - ERROR - Prediction error: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- Category_Art
+- Category_Collectibles
+- Category_Design
+- Category_Digital
+- Category_Drawing
+- ...
+
+2025-04-13 03:12:28,711 - INFO - 127.0.0.1 - - [13/Apr/2025 03:12:28] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-13 03:12:29,975 - INFO - 127.0.0.1 - - [13/Apr/2025 03:12:29] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-13 03:12:30,295 - INFO - Received prediction request: {'Volume_USD': 1000000, 'Sales': 500, 'Floor_Price_USD': 100, 'Average_Price_USD': 2000, 'Category': 'AI'}
+2025-04-13 03:12:30,302 - INFO - Input DataFrame: {'Volume_USD': {0: 1000000.0}, 'Sales': {0: 500.0}, 'Floor_Price_USD': {0: 100.0}, 'Average_Price_USD': {0: 2000.0}, 'Owners': {0: 0.0}, 'Assets': {0: 0.0}, 'Owner_Asset_Ratio': {0: 0}, 'Category_2D': {0: 0}, 'Category_3D': {0: 0}, 'Category_AI': {0: 1}, 'Category_Artifact': {0: 0}, 'Category_Audio': {0: 0}, 'Volume_per_Sale': {0: 2000.0}, 'Avg_Price_per_Asset': {0: 2000.0}, 'Market_Cap_to_Volume': {0: 0}}
+2025-04-13 03:12:30,302 - ERROR - Prediction error: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- Category_Art
+- Category_Collectibles
+- Category_Design
+- Category_Digital
+- Category_Drawing
+- ...
+
+2025-04-13 03:12:30,302 - INFO - 127.0.0.1 - - [13/Apr/2025 03:12:30] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-13 03:12:40,372 - INFO - 127.0.0.1 - - [13/Apr/2025 03:12:40] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-13 03:12:40,625 - INFO - Received prediction request: {'Volume_USD': 1000000, 'Sales': 500, 'Floor_Price_USD': 100, 'Average_Price_USD': 2000, 'Category': 'Audio'}
+2025-04-13 03:12:40,625 - INFO - Input DataFrame: {'Volume_USD': {0: 1000000.0}, 'Sales': {0: 500.0}, 'Floor_Price_USD': {0: 100.0}, 'Average_Price_USD': {0: 2000.0}, 'Owners': {0: 0.0}, 'Assets': {0: 0.0}, 'Owner_Asset_Ratio': {0: 0}, 'Category_2D': {0: 0}, 'Category_3D': {0: 0}, 'Category_AI': {0: 0}, 'Category_Artifact': {0: 0}, 'Category_Audio': {0: 1}, 'Volume_per_Sale': {0: 2000.0}, 'Avg_Price_per_Asset': {0: 2000.0}, 'Market_Cap_to_Volume': {0: 0}}
+2025-04-13 03:12:40,631 - ERROR - Prediction error: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- Category_Art
+- Category_Collectibles
+- Category_Design
+- Category_Digital
+- Category_Drawing
+- ...
+
+2025-04-13 03:12:40,632 - INFO - 127.0.0.1 - - [13/Apr/2025 03:12:40] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-13 03:12:40,805 - INFO - Received prediction request: {'Volume_USD': 1000000, 'Sales': 500, 'Floor_Price_USD': 100, 'Average_Price_USD': 2000, 'Category': 'Audio'}
+2025-04-13 03:12:40,813 - INFO - Input DataFrame: {'Volume_USD': {0: 1000000.0}, 'Sales': {0: 500.0}, 'Floor_Price_USD': {0: 100.0}, 'Average_Price_USD': {0: 2000.0}, 'Owners': {0: 0.0}, 'Assets': {0: 0.0}, 'Owner_Asset_Ratio': {0: 0}, 'Category_2D': {0: 0}, 'Category_3D': {0: 0}, 'Category_AI': {0: 0}, 'Category_Artifact': {0: 0}, 'Category_Audio': {0: 1}, 'Volume_per_Sale': {0: 2000.0}, 'Avg_Price_per_Asset': {0: 2000.0}, 'Market_Cap_to_Volume': {0: 0}}
+2025-04-13 03:12:40,813 - ERROR - Prediction error: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- Category_Art
+- Category_Collectibles
+- Category_Design
+- Category_Digital
+- Category_Drawing
+- ...
+
+2025-04-13 03:12:40,813 - INFO - 127.0.0.1 - - [13/Apr/2025 03:12:40] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-13 04:16:28,680 - INFO - Fetching features and categories
+2025-04-13 04:16:28,680 - INFO - 127.0.0.1 - - [13/Apr/2025 04:16:28] "GET /features HTTP/1.1" 200 -
+2025-04-13 04:16:28,939 - INFO - Fetching features and categories
+2025-04-13 04:16:28,939 - INFO - 127.0.0.1 - - [13/Apr/2025 04:16:28] "GET /features HTTP/1.1" 200 -
+2025-04-13 04:16:58,139 - INFO - 127.0.0.1 - - [13/Apr/2025 04:16:58] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-13 04:16:58,400 - INFO - Received prediction request: {'Volume_USD': 65.23, 'Sales': 45, 'Floor_Price_USD': 5155, 'Average_Price_USD': 61, 'Category': '2D'}
+2025-04-13 04:16:58,407 - INFO - Input DataFrame: {'Volume_USD': {0: 65.23}, 'Sales': {0: 45.0}, 'Floor_Price_USD': {0: 5155.0}, 'Average_Price_USD': {0: 61.0}, 'Owners': {0: 0.0}, 'Assets': {0: 0.0}, 'Owner_Asset_Ratio': {0: 0}, 'Category_2D': {0: 1}, 'Category_3D': {0: 0}, 'Category_AI': {0: 0}, 'Category_Artifact': {0: 0}, 'Category_Audio': {0: 0}, 'Volume_per_Sale': {0: 1.4495555555555557}, 'Avg_Price_per_Asset': {0: 61.0}, 'Market_Cap_to_Volume': {0: 0}}
+2025-04-13 04:16:58,408 - ERROR - Prediction error: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- Category_Art
+- Category_Collectibles
+- Category_Design
+- Category_Digital
+- Category_Drawing
+- ...
+
+2025-04-13 04:16:58,408 - INFO - 127.0.0.1 - - [13/Apr/2025 04:16:58] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-13 04:23:13,828 - INFO -  * Detected change in 'E:\\Hackathon-SmartNFT\\backend\\app.py', reloading
+2025-04-13 04:23:14,271 - INFO -  * Restarting with stat
+2025-04-13 04:26:23,837 - INFO - Model and scaler loaded successfully
+2025-04-13 04:26:23,895 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-13 04:26:23,895 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 04:26:23,895 - INFO -  * Restarting with stat
+2025-04-13 04:26:27,856 - INFO - Model and scaler loaded successfully
+2025-04-13 04:26:27,886 - WARNING -  * Debugger is active!
+2025-04-13 04:26:27,886 - INFO -  * Debugger PIN: 122-535-074
+2025-04-13 04:26:33,957 - INFO -  * Detected change in 'E:\\Hackathon-SmartNFT\\backend\\app.py', reloading
+2025-04-13 04:26:34,285 - INFO -  * Restarting with stat
+2025-04-13 04:26:38,559 - INFO - Model and scaler loaded successfully
+2025-04-13 04:26:38,579 - WARNING -  * Debugger is active!
+2025-04-13 04:26:38,584 - INFO -  * Debugger PIN: 122-535-074
+2025-04-13 04:31:42,464 - INFO -  * Detected change in 'E:\\Hackathon-SmartNFT\\backend\\app.py', reloading
+2025-04-13 04:31:42,936 - INFO -  * Restarting with stat
